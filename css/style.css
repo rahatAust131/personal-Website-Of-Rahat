@@ -132,11 +132,25 @@ section {
   margin-left: 1%;
 }
 
+#fifth-section {
+  height: 500px;
+  background-image: linear-gradient(45deg, black, blue);
+}
+#fifth-section h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+#fifth-section img {
+  margin: 1%;
+  width: 30%;
+}
+
 /* Footer Section */
 footer {
   padding: 10px;
   text-align: center;
   font-size: 12px;
+  background-color: thistle;
 }
 
 /* For Elements */
