@@ -132,6 +132,13 @@ section {
   margin-left: 1%;
 }
 
+/* Footer Section */
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
 /* For Elements */
 .btn {
   padding: 11px;
