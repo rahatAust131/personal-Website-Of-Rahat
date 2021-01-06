@@ -1,0 +1,156 @@
+/* For All Utilities */
+
+* {
+  font-family: "Merriweather", serif;
+}
+
+/* For All Sections */
+section {
+  margin: 2%;
+  padding: 1%;
+  height: 500px;
+  /* background-image: linear-gradient(45deg, white, blue); */
+}
+
+/* Navigation Menu */
+#navigation-menu {
+  height: 45px;
+  background-image: linear-gradient(180deg, gray, black);
+}
+.navbar {
+  float: right;
+  margin-bottom: 2%;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  padding: 30px;
+}
+
+/* First Section */
+#first-section {
+  margin-bottom: 3%;
+
+  background-image: linear-gradient(45deg, violet, greenyellow);
+}
+.half {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+}
+.half img {
+  width: 95%;
+}
+.first-half h2 {
+  font-size: 50px;
+}
+.second-half h2 {
+  font-size: 40px;
+}
+
+/* Second Section */
+#second-section {
+  background-image: linear-gradient(45deg, blue, cyan);
+}
+
+/* Third Section */
+#third-section {
+  height: 600px;
+  background-image: linear-gradient(45deg, blue, gray);
+}
+#third-section h2 {
+  font-size: 35px;
+  color: whitesmoke;
+}
+.project-class {
+  float: left;
+  width: 28%;
+  height: 350px;
+  margin-left: 1%;
+  padding: 2%;
+  box-shadow: 5px 5px 20px cyan;
+  border-radius: 25px;
+  background-color: white;
+}
+.project-class img {
+  width: 100%;
+}
+
+/* Fourth Section */
+#fourth-section {
+  background-image: linear-gradient(180deg, black, greenyellow);
+  height: 650px;
+}
+.inquiry {
+  position: relative;
+  width: 100%;
+  margin: 0px 2%;
+}
+.inquiry-box {
+  width: 75%;
+}
+.inquiry a {
+  position: relative;
+  left: 60%;
+  bottom: 100px;
+}
+.inquiry h1 {
+  font-size: 35px;
+  color: whitesmoke;
+  position: relative;
+  left: 20%;
+  top: 175px;
+}
+.chat-btn {
+  padding: 11px;
+  text-decoration: none;
+  color: greenyellow;
+  background-image: linear-gradient(45deg, black, gray);
+  border-radius: 10px;
+}
+.icon {
+  float: left;
+  padding: 1%;
+  width: 100%;
+}
+.icon p {
+  font-size: 25px;
+}
+.icon h3 {
+  font-size: 45px;
+}
+.icon img {
+  width: 4%;
+}
+.mid-position {
+  position: relative;
+  left: 41%;
+  margin-left: 1%;
+}
+
+/* For Elements */
+.btn {
+  padding: 11px;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(45deg, blue, red);
+  border-radius: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+.text-center {
+  text-align: center;
+}
+
+.blueviolet-text {
+  color: blueviolet;
+}
+.cyan-text {
+  color: cyan;
+}
